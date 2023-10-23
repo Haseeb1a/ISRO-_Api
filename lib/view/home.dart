@@ -72,7 +72,7 @@ class _HomeState extends State<Home> {
                                     // height: 170,
                                     width: 400,
                                     child: Card(
-                                      color: Color.fromARGB(255, 217, 130, 37),
+                                      color: const Color.fromARGB(255, 237, 166, 60),
                                       child: Center(
                                         child: Column(
                                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -81,7 +81,7 @@ class _HomeState extends State<Home> {
                                             Text(snashot.data![index].name.toString(),style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold,color: Colors.white),),
                                               Text(snashot.data![index].launchType.toString(),style: TextStyle(fontSize: 23,fontWeight: FontWeight.bold,color: Colors.white)),
                                               Text(snashot.data![index].launchDate.toString(),style: TextStyle(fontSize: 23,fontWeight: FontWeight.bold,color: Colors.white)),
-                                              Text(snashot.data![index].missionStatus.toString(),style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold,color: Colors.white)),
+                                              Text(snashot.data![index].missionStatus.toString(),style: TextStyle(fontSize: 15,fontWeight: FontWeight.bold,color: Colors.black)),
                                           ],
                                         ),
                                       ),
