@@ -21,21 +21,21 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.orange,
+        backgroundColor: Colors.white,
        title: const Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
               'ISRO ',
               style: TextStyle(
-               color: Color.fromARGB(255, 0, 0, 0),
+               color:Colors.orange,
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
             ),
             Text(
               'LAUNCHES',
               style: TextStyle(
-                  color: Color.fromARGB(255, 255, 255, 255),
+                  color: Color.fromARGB(255, 0, 0, 0),
                   fontSize: 20,
                   fontWeight: FontWeight.bold),
             )
